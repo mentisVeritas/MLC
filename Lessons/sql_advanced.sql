@@ -36,8 +36,8 @@ ORDER BY avg_price DESC;
 SELECT order_id,
        customer_id,
        order_date,
-       ROW_NUMBER() OVER (
-           PARTITION BY customer_id
+       row_number() over (
+           partition BY customer_id
            ORDER BY order_date
            ) AS order_number
 FROM orders;
@@ -46,8 +46,8 @@ FROM orders;
 SELECT product_id,
        brand_id,
        list_price,
-       RANK() OVER (
-           PARTITION BY brand_id
+       rank() over (
+           partition BY brand_id
            ORDER BY list_price DESC
            ) AS price_rank
 FROM products;
@@ -56,8 +56,8 @@ FROM products;
 SELECT product_id,
        brand_id,
        list_price,
-       AVG(list_price) OVER (
-           PARTITION BY brand_id
+       AVG(list_price) over (
+           partition BY brand_id
            ) AS avg_brand_price
 FROM products;
 
