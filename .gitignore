@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .venv/
 .env
+
+db/flights_2008.csv
+db/renthop_train.json
