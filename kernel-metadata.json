@@ -1,0 +1,15 @@
+{
+  "id": "mentisveritas/simpsons-cnn",
+  "title": "Simpsons CNN",
+  "code_file": "./Lessons/CNN_simpsons_classification.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "false",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

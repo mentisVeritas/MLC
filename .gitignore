@@ -4,5 +4,5 @@ __pycache__/
 .venv/
 .env
 
-db/flights_2008.csv
-db/renthop_train.json
+data/flights_2008.csv
+data/renthop_train.json

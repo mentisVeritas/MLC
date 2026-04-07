@@ -1,0 +1,3 @@
+[submodule "projects/letter-recognition-service"]
+	path = projects/letter-recognition-service
+	url = https://github.com/mentisVeritas/letter-recognition-service.git
